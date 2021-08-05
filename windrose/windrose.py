@@ -111,7 +111,7 @@ class WindroseAxes(PolarAxes):
         """
         PolarAxes.cla(self)
 
-        self.theta_angles = np.arange(0, 360, 45)
+        self.theta_angles = np.arange(0, 360, 22.5)
         self.set_thetagrids(angles=self.theta_angles, labels=self.theta_labels)
 
         self._info = {"dir": list(), "bins": list(), "table": list()}
